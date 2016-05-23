@@ -1,0 +1,7 @@
+vendor/
+composer.lock
+.project
+.buildpath
+.settings
+.idea
+*.swp
