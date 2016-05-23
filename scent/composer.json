@@ -1,0 +1,25 @@
+{
+    "name": "warps/php-bridge-scent",
+    "description": "The scent bridge",
+    "type": "library",
+    "keywords": ["nutch"],
+    "homepage": "http://warpspeed.cn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Warp Speed Community",
+            "homepage": "http://warpspeed.cn"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/galaxyeye/php-bridge"
+    },
+    "require": {
+        "warps/scent": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Warps//Scent//": "src"
+        }
+    }
+}
