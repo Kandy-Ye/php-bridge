@@ -1,0 +1,32 @@
+{
+  "name": "warps/php-bridge-nutch",
+  "description": "The nutch-php bridge",
+  "type": "library",
+  "keywords": [
+    "nutch", "php-bridge"
+  ],
+  "homepage": "http://warpspeed.cn",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/galaxyeye/php-bridge"
+  },
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "suggest": {
+    "phpunit/phpunit": "Allows automated tests to be run without system-wide install."
+  },
+  "autoload": {
+    "psr-4": {
+      "Warps\\": "src"
+    },
+    "files": [
+      "src/Utils/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Warps\\Test\\": "tests"
+    }
+  }
+}
