@@ -345,3 +345,8 @@
 
     return $host;
   }
+
+  function getFuzzyIp($ip) {
+    return preg_replace('/(::ffff)*(\d+)\.(\d+)\.(\d+)\.(\d+)/i', '$2.$3.$4.*', $ip);
+  }
+  

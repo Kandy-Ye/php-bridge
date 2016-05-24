@@ -11,7 +11,8 @@ class UtilsTest extends \PHPUnit_Framework_TestCase
 
     public function testGetReadableTime()
     {
-        $time = Warps\Utils\getReadableTime2(time());
-        $this->assertContains('日', $time);
+        $time = strtotime("-2 day");
+        $time = Warps\Utils\getReadableTime2($time);
+        $this->assertContains('天前', $time);
     }
 }

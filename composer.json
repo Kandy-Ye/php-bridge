@@ -1,6 +1,6 @@
 {
-  "name": "warps/php-bridge-nutch",
-  "description": "The nutch-php bridge",
+  "name": "warps/php-bridge",
+  "description": "Php bridge to projects using other languages",
   "type": "library",
   "keywords": [
     "nutch", "php-bridge"

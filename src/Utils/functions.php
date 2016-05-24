@@ -204,7 +204,6 @@ function loadEmailSettings($emailType, &$email)
     }
 }
 
-
 function authcode($string, $operation = 'DECODE', $key = '', $expiry = 0)
 {
     $ckey_length = 4;
